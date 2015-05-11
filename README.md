@@ -16,3 +16,9 @@ This image works well with the below related images.
 - [dylanlindgren/docker-laravel-phpunit](https://github.com/dylanlindgren/docker-laravel-phpunit)
 
 If you have any feedback or questions, feel free to leave a comment on my blog, or you can contact me on Twitter with [@dylanlindgren](https://twitter.com/dylanlindgren) or email with dylan.lindgren@gmail.com.
+
+=========
+Update
+=========
+
+Changed volume and work dir from /data/www to /www to fit my case
