@@ -15,9 +15,9 @@ RUN apt-get update -y && \
     php5-sqlite \
     php5-gd
 
-RUN mkdir -p /data/www
-VOLUME ["/data"]
-WORKDIR /data/www
+RUN mkdir -p /www
+VOLUME ["/www"]
+WORKDIR /www
 
 ENTRYPOINT ["php", "artisan"]
 CMD ["--help"]
